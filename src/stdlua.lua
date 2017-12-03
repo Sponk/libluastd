@@ -155,9 +155,7 @@ end
 package.path = scriptPath() .. "?.lua;" .. package.path
 
 std = {
-	Assert = require("Assert"),
 	__FILE__ = scriptPath,
-	
 	exception = class {"exception",
 		public = {
 			message = "",
